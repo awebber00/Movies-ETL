@@ -21,9 +21,9 @@ This module helped us learn how to use the Extract, Transform, Load (ETL) proces
 
 The state of the data largely determines which strategy you should use to clean it.
 
-## ETL & The Iterative Process for Cleaning Data
+# ETL & The Iterative Process for Cleaning Data
 
-**Extract Transform Load (ETL)**
+## Extract Transform Load (ETL)
 
 ETL stands for extract, transofm and load. Raw data needs to be cleaned and structured before it can be analyzed. ETL represents the three phases of the process that helps us get this done.
 
@@ -38,20 +38,22 @@ ETL stands for extract, transofm and load. Raw data needs to be cleaned and stru
 **Load**
 - Write the data into a database for storage.
 
-### Extract
+#### Extract
 When we extract data it may be pulled from a variety of sources. The sources could be flat files, scraped webpages in HTML or JavaScript Object Notation (JSON) format, SQL tables, or even streams of sensor data. The extracted data is held in a staging area in between the data sources and data targets.
 For Movies-ETL, scraped Wikipedia data that was stored as a JSON format file was extracted, as well as Kaggle data stored in the comma separated value (CSV) file format.
 
 ![Extract Photo](Resources/ExtractPhoto.png)
 
-### Transform
+#### Transform
 Data is extracted, and may have to undergo numerous transformations until it is sufficient to glean useable information from. The goal when performing the transformation step in our overall process is to create consistent structure in the data. Without this, our analysis will be neither complete nor accurate.
 For this step in the process Python and Pandas were used to explore, document, and perform the transformation of our data.
 
 ![Transform Photo](Resources/TransformPhoto.png)
 
-### Load
+#### Load
 Data is transformed then it is loaded into a data target. Data targets vary depending on where we are concluding our analysis.
 The target for our data was a PostgreSQL table.
 
 ![Load Photo](Resources/LoadPhoto.png)
+
+## The Iterative Process for Cleaning Data
