@@ -72,3 +72,8 @@ We take an initial look at our data. What we want to know is the accuracy of the
 ![Plan Photo](Resources/PlanPhoto.png)
 
 Next we identify problem areas and make decisions about how to fix them. We must use a method that is simple and organized for us to remember what we're fixing and how we're fixing it for later fixes dow the road. Sometimes there are multiple viable resolutions to choose from so we have to weigh the pros and cons of which ones are most efficient.
+
+
+![Execute Photo](Resources/ExecutePhoto.png)
+
+Once we have taken the necessary steps we can finally execute our decisions and implement our modifications.
