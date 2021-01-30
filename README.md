@@ -15,9 +15,9 @@ This module helped us learn how to use the Extract, Transform, Load (ETL) proces
 
 **Important:** Bad data comes in three states!
 
-    - Beyond repair
-    - Badly damaged
-    - Wrong form
+- Beyond repair
+- Badly damaged
+- Wrong form
 
 The state of the data largely determines which strategy you should use to clean it.
 
@@ -29,11 +29,27 @@ ETL stands for extract, transofm and load. Raw data needs to be cleaned and stru
 
 ![ETL Photo](Resources/ETLPhoto.png)
 
+**Extract**
+- Read the data, often from multiple sources.
+
+**Transfrom**
+- Clean and structure the data in desired form.
+
+**Load**
+- Write the data into a database for storage.
+
 ### Extract
 When we extract data it may be pulled from a variety of sources. The sources could be flat files, scraped webpages in HTML or JavaScript Object Notation (JSON) format, SQL tables, or even streams of sensor data. The extracted data is held in a staging area in between the data sources and data targets.
 For Movies-ETL, scraped Wikipedia data that was stored as a JSON format file was extracted, as well as Kaggle data stored in the comma separated value (CSV) file format.
 
 ![Extract Photo](Resources/ExtractPhoto.png)
+
+**Extract**
+- Read the data, often from multiple sources.
+**Transfrom**
+- Clean and structure the data in desired form.
+**Load**
+- Write the data into a database for storage.
 
 ### Transform
 Data is extracted, and may have to undergo numerous transformations until it is sufficient to glean useable information from. The goal when performing the transformation step in our overall process is to create consistent structure in the data. Without this, our analysis will be neither complete nor accurate.
