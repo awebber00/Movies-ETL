@@ -65,8 +65,10 @@ We can break down the iterative process for cleaning data in the following steps
 - After data inspection, make a plan to decide the most efficient way to fix it.
 - Last is executing the fix/repair.  
 
-
 ![Inspect Photo](Resources/InspectPhoto.png)
 
-
 We take an initial look at our data. What we want to know is the accuracy of the data import process. We print the first few rows of our data and inspect accordingly. However, most usable data contains too many data points to review every single one, so use strategies that tell us about the whole dataset. 
+
+![Plan Photo](Resources/PlanPhoto.png)
+
+Next we identify problem areas and make decisions about how to fix them. We must use a method that is simple and organized for us to remember what we're fixing and how we're fixing it for later fixes dow the road. Sometimes there are multiple viable resolutions to choose from so we have to weigh the pros and cons of which ones are most efficient.
