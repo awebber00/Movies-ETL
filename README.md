@@ -60,7 +60,7 @@ The target for our data was a PostgreSQL table.
 
 ![IPE Photo](Resources/IPEPhoto.png)
 
-The iterative process for cleaning data can be broken down as follows:  
-- First, we need to inspect our data and identify a problem.
-- Once we’ve identified the problem, we need to make a plan and decide whether it is worth the time and effort to fix it.
-- Finally, we execute the repair.  
+We can break down the iterative process for cleaning data in the following steps:  
+- Inspect our data and identify the problem.
+- After data inspection, make a plan to decide the most efficient way to fix it.
+- Last is executing the fix/repair.  
