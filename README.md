@@ -44,13 +44,6 @@ For Movies-ETL, scraped Wikipedia data that was stored as a JSON format file was
 
 ![Extract Photo](Resources/ExtractPhoto.png)
 
-**Extract**
-- Read the data, often from multiple sources.
-**Transfrom**
-- Clean and structure the data in desired form.
-**Load**
-- Write the data into a database for storage.
-
 ### Transform
 Data is extracted, and may have to undergo numerous transformations until it is sufficient to glean useable information from. The goal when performing the transformation step in our overall process is to create consistent structure in the data. Without this, our analysis will be neither complete nor accurate.
 For this step in the process Python and Pandas were used to explore, document, and perform the transformation of our data.
