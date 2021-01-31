@@ -77,3 +77,11 @@ Next we identify problem areas and make decisions about how to fix them. We must
 ![Execute Photo](Resources/ExecutePhoto.png)
 
 Once we have taken the necessary steps we can finally execute our decisions and implement our modifications.
+
+
+# Module 8 Challenge
+
+   - Deliverable 1: Writing an ETL Function to Read Three Data Files
+   - Deliverable 2: Extracting and Transforming the Wikipedia Data
+   - Deliverable 3: Extracting and Transforming the Kaggle data
+   - Deliverable 4: Creating the Movie Database
