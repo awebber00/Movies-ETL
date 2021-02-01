@@ -5,6 +5,7 @@ __pycache__/
 
 *ratings.csv
 
+.csv
 
 # C extensions
 *.so
