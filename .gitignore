@@ -5,7 +5,9 @@ __pycache__/
 
 *ratings.csv
 
-.csv
+*movies_metadata.csv
+*wikipedia-movies.json
+*.csv
 
 # C extensions
 *.so
