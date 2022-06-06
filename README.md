@@ -85,3 +85,6 @@ Once we have taken the necessary steps we can finally execute our decisions and 
    - Deliverable 2: Extracting and Transforming the Wikipedia Data
    - Deliverable 3: Extracting and Transforming the Kaggle data
    - Deliverable 4: Creating the Movie Database
+
+
+* Note: All images that are screen shots are mine. All other photos are sourced from Google Images.
